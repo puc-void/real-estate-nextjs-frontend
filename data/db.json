@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "admin-user-id",
+      "name": "Admin Nestora",
+      "email": "admin@nestora.com",
+      "password": "admin123",
+      "role": "ADMIN",
+      "isVerified": true,
+      "isFraud": false,
+      "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "contactNumber": "+8801511111111",
+      "address": "Dhaka, Bangladesh",
+      "generatedAt": "2026-03-25T15:00:00.000Z",
+      "updatedAt": "2026-03-25T15:00:00.000Z"
+    },
+    {
+      "id": "b6747d21-d5b8-48c9-babd-8487f58eb92f",
+      "name": "John Agent",
+      "email": "agent@nestora.com",
+      "password": "agent123",
+      "role": "AGENT",
+      "isVerified": true,
+      "isFraud": false,
+      "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+      "agentId": "508f7879-e762-4666-869f-539c017df80a",
+      "contactNumber": "+8801812345678",
+      "address": "Khulna, Bangladesh",
+      "generatedAt": "2026-03-25T15:06:09.054Z",
+      "updatedAt": "2026-04-25T13:29:03.391Z"
+    },
+    {
+      "id": "regular-user-id",
+      "name": "Sarah Customer",
+      "email": "user@nestora.com",
+      "password": "user123",
+      "role": "USER",
+      "isVerified": false,
+      "isFraud": false,
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "contactNumber": "+8801512345679",
+      "address": "Chittagong, Bangladesh",
+      "generatedAt": "2026-04-28T07:40:26.564Z",
+      "updatedAt": "2026-04-28T07:40:26.564Z"
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "agentId": "508f7879-e762-4666-869f-539c017df80a",
+      "title": "Commercial Shop Space",
+      "description": "Street-facing commercial space suitable for retail or small office setup in GEC Circle, Chattogram.",
+      "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800",
+      "location": "GEC Circle, Chattogram",
+      "priceRange": "$1500-$1900",
+      "propertyType": "COMMERCIAL",
+      "isVerified": true,
+      "isAdvertised": true,
+      "isBought": false,
+      "generatedAt": "2026-03-25T15:27:11.923Z",
+      "updatedAt": "2026-03-25T15:27:11.923Z",
+      "bedrooms": 0,
+      "bathrooms": 1
+    },
+    {
+      "id": 2,
+      "agentId": "508f7879-e762-4666-869f-539c017df80a",
+      "title": "Luxury Apartment in Gulshan",
+      "description": "Modern fully furnished apartment with rooftop access and 24/7 security in the heart of Gulshan.",
+      "imageUrl": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+      "location": "Gulshan-2, Dhaka",
+      "priceRange": "$2000-$2500",
+      "propertyType": "APARTMENT",
+      "isVerified": true,
+      "isAdvertised": true,
+      "isBought": false,
+      "generatedAt": "2026-03-25T15:27:57.790Z",
+      "updatedAt": "2026-03-25T15:27:57.790Z",
+      "bedrooms": 3,
+      "bathrooms": 3
+    },
+    {
+      "id": 3,
+      "agentId": "508f7879-e762-4666-869f-539c017df80a",
+      "title": "Family House with Garden",
+      "description": "Cozy family house with garden, parking, and easy highway access located in Purbachal, Dhaka.",
+      "imageUrl": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
+      "location": "Purbachal, Dhaka",
+      "priceRange": "$2000-$2500",
+      "propertyType": "HOUSE",
+      "isVerified": true,
+      "isAdvertised": false,
+      "isBought": false,
+      "generatedAt": "2026-03-25T15:29:13.081Z",
+      "updatedAt": "2026-06-27T17:57:16.717Z",
+      "bedrooms": 4,
+      "bathrooms": 3
+    }
+  ],
+  "offers": [],
+  "wishlist": [],
+  "bookedProperties": [],
+  "soldProperties": [],
+  "notifications": [
+    {
+      "id": "9352da86-1bf8-4cc2-b3f2-0e6567fb0fb8",
+      "title": "New Agent Registered",
+      "message": "John Agent registered as agent in our app",
+      "receiverId": null,
+      "receiverRole": "ADMIN",
+      "generatedAt": "2026-05-07T06:31:41.814Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "9592bcc4-2ce9-42ef-9a69-5048cbf85eac",
+      "propertyId": 1,
+      "userId": "regular-user-id",
+      "rating": 5,
+      "description": "Excellent apartment, very clean and well maintained.",
+      "generatedAt": "2026-04-02T18:50:31.028Z",
+      "updatedAt": "2026-04-02T18:50:31.028Z"
+    }
+  ],
+  "otps": []
+}
